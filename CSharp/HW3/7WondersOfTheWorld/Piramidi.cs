@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Piramidi
 {
-    class Piramidi
+    class Wonder : _7WondersOfTheWorld.BaseWonders
     {
+
     }
 }

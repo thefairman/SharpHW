@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlexandriyskiyMayak.cs" />
+    <Compile Include="BaseWonders.cs" />
     <Compile Include="GalikarnasskiMavzolei.cs" />
     <Compile Include="HramArtemidi.cs" />
     <Compile Include="KolosRodovskiy.cs" />

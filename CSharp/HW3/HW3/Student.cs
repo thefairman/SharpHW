@@ -57,7 +57,7 @@ namespace HW3
             for (int i = 0; i < subjectsCount; i++)
             {
                 Console.Write($"Оценок по предмету \"{((Subjects)i).ToString()}\": {GetAssessment((Subjects)i).Length}. ");
-                Console.WriteLine($"Средняя оценко по предмету \"{((Subjects)i).ToString()}\": {GetAvgAssessment((Subjects)i)}");
+                Console.WriteLine($"Средняя оценко по предмету \"{((Subjects)i).ToString()}\": {GetAvgAssessment((Subjects)i):0.00}");
             }
             
         }

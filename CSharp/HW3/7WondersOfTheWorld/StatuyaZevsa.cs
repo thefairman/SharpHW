@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7WondersOfTheWorld
+namespace StatuyaZevsa
 {
-    class StatuyaZevsa
+    class Wonder : _7WondersOfTheWorld.BaseWonders
     {
+
     }
 }
