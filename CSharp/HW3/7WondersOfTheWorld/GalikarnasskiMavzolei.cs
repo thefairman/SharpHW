@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7WondersOfTheWorld
+namespace GalikarnasskiMavzolei
 {
-    class GalikarnasskiMavzolei
+    class Wonder : _7WondersOfTheWorld.BaseWonders
     {
     }
 }
