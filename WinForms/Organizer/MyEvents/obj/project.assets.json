@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\ClassWork\\Organizer\\MyEvents\\MyEvents.csproj",
+      "projectUniqueName": "D:\\Learning\\HomeWork\\CSharp\\Execution\\SharpHW\\WinForms\\Organizer\\MyEvents\\MyEvents.csproj",
       "projectName": "MyEvents",
-      "projectPath": "D:\\Learning\\ClassWork\\Organizer\\MyEvents\\MyEvents.csproj",
+      "projectPath": "D:\\Learning\\HomeWork\\CSharp\\Execution\\SharpHW\\WinForms\\Organizer\\MyEvents\\MyEvents.csproj",
       "packagesPath": "C:\\Users\\thefair\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\ClassWork\\Organizer\\MyEvents\\obj\\",
+      "outputPath": "D:\\Learning\\HomeWork\\CSharp\\Execution\\SharpHW\\WinForms\\Organizer\\MyEvents\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
