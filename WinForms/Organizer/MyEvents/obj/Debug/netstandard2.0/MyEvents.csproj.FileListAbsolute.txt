@@ -7,3 +7,12 @@ D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.Assem
 D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.csproj.CoreCompileInputs.cache
 D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.dll
 D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.pdb
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.deps.json
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.dll
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.pdb
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.csprojAssemblyReference.cache
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.AssemblyInfoInputs.cache
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.AssemblyInfo.cs
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.csproj.CoreCompileInputs.cache
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.dll
+D:\Learning\HomeWork\CSharp\Execution\SharpHW\WinForms\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.pdb

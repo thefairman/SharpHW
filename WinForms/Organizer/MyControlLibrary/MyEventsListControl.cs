@@ -48,15 +48,15 @@ namespace EventsControl
             tableLayoutPanel1.Controls.Clear();
         }
 
-        public SortedList<DateTime, MyEvent> UpdateRemainTime()
+        public List<MyEvent> UpdateRemainTime()
         {
-            SortedList<DateTime, MyEvent> list = new SortedList<DateTime, MyEvent>();
+            List<MyEvent> list = new List<MyEvent>();
             for (int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
             {
                 var myEventControl = tableLayoutPanel1.Controls[i] as MyEventControl;
                 if (myEventControl != null && !myEventControl.UpdateRemain())
                 {
-                    list.Add(myEventControl.myEvent.EventDate, myEventControl.myEvent);
+                    list.Add(myEventControl.myEvent);
                     tableLayoutPanel1.Controls.RemoveAt(i--);
                 }
             }

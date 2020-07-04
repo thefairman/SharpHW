@@ -63,9 +63,9 @@ namespace Organizer
             {
                 foreach (var item in doneList)
                 {
-                    (new EventAlertForm(item.Value)).Show(this);
+                    (new EventAlertForm(item)).Show(this);
                 }
-                myEventsListControl1.AddElements(EventsManager.GetNearestEvents(doneList.Last().Key));
+                myEventsListControl1.AddElements(EventsManager.GetNearestEvents(doneList.Max(x=>x.EventDate)));
             }
             timer1.Start();
         }
@@ -74,6 +74,7 @@ namespace Organizer
         {
             EventsViewForm dlg = new EventsViewForm();
             dlg.ShowDialog(this);
+            myEventsListControl1.AddElements(EventsManager.GetNearestEvents());
         }
     }
 }

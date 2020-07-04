@@ -45,6 +45,10 @@ namespace Organizer
             {
                 resultQuery = MainForm.EventsManager.GetSortQuery(EventManagerFacade.OrderBy.Name, checkBoxDesc.Checked);
             }
+            if (radioButtonNoneSort.Checked)
+            {
+                resultQuery = MainForm.EventsManager.ResetOrderList();
+            }
             SetDataToList(resultQuery);
         }
 
@@ -83,7 +87,6 @@ namespace Organizer
             text = textBoxSearchVal.Text;
             return true;
         }
-
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
@@ -127,6 +130,7 @@ namespace Organizer
 
         private void buttonClearSearch_Click(object sender, EventArgs e)
         {
+            MainForm.EventsManager.ResetSearchedList();
             SetDataToList();
         }
 

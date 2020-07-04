@@ -36,15 +36,16 @@
             this.radioButtonPriority = new System.Windows.Forms.RadioButton();
             this.radioButtonDate = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBoxSearchInRes = new System.Windows.Forms.CheckBox();
+            this.buttonClearSearch = new System.Windows.Forms.Button();
             this.comboBoxSeacrhPriorVal = new System.Windows.Forms.ComboBox();
             this.textBoxSearchVal = new System.Windows.Forms.TextBox();
             this.comboBoxSearchType = new System.Windows.Forms.ComboBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.buttonClearSearch = new System.Windows.Forms.Button();
             this.buttonEditEvent = new System.Windows.Forms.Button();
             this.buttonDelEvent = new System.Windows.Forms.Button();
-            this.checkBoxSearchInRes = new System.Windows.Forms.CheckBox();
+            this.radioButtonNoneSort = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +75,7 @@
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.radioButtonNoneSort);
             this.groupBox1.Controls.Add(this.checkBoxDesc);
             this.groupBox1.Controls.Add(this.radioButtonName);
             this.groupBox1.Controls.Add(this.radioButtonPriority);
@@ -88,7 +90,7 @@
             // checkBoxDesc
             // 
             this.checkBoxDesc.AutoSize = true;
-            this.checkBoxDesc.Location = new System.Drawing.Point(125, 21);
+            this.checkBoxDesc.Location = new System.Drawing.Point(7, 19);
             this.checkBoxDesc.Name = "checkBoxDesc";
             this.checkBoxDesc.Size = new System.Drawing.Size(51, 17);
             this.checkBoxDesc.TabIndex = 3;
@@ -110,7 +112,7 @@
             // radioButtonPriority
             // 
             this.radioButtonPriority.AutoSize = true;
-            this.radioButtonPriority.Location = new System.Drawing.Point(7, 43);
+            this.radioButtonPriority.Location = new System.Drawing.Point(86, 66);
             this.radioButtonPriority.Name = "radioButtonPriority";
             this.radioButtonPriority.Size = new System.Drawing.Size(99, 17);
             this.radioButtonPriority.TabIndex = 1;
@@ -121,12 +123,10 @@
             // radioButtonDate
             // 
             this.radioButtonDate.AutoSize = true;
-            this.radioButtonDate.Checked = true;
-            this.radioButtonDate.Location = new System.Drawing.Point(7, 20);
+            this.radioButtonDate.Location = new System.Drawing.Point(86, 43);
             this.radioButtonDate.Name = "radioButtonDate";
             this.radioButtonDate.Size = new System.Drawing.Size(65, 17);
             this.radioButtonDate.TabIndex = 0;
-            this.radioButtonDate.TabStop = true;
             this.radioButtonDate.Text = "По дате";
             this.radioButtonDate.UseVisualStyleBackColor = true;
             this.radioButtonDate.CheckedChanged += new System.EventHandler(this.SortOptionsChanged_CheckedChanged);
@@ -147,6 +147,26 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Поиск";
+            // 
+            // checkBoxSearchInRes
+            // 
+            this.checkBoxSearchInRes.AutoSize = true;
+            this.checkBoxSearchInRes.Location = new System.Drawing.Point(111, 19);
+            this.checkBoxSearchInRes.Name = "checkBoxSearchInRes";
+            this.checkBoxSearchInRes.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxSearchInRes.TabIndex = 6;
+            this.checkBoxSearchInRes.UseVisualStyleBackColor = true;
+            // 
+            // buttonClearSearch
+            // 
+            this.buttonClearSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonClearSearch.Location = new System.Drawing.Point(122, 103);
+            this.buttonClearSearch.Name = "buttonClearSearch";
+            this.buttonClearSearch.Size = new System.Drawing.Size(75, 23);
+            this.buttonClearSearch.TabIndex = 5;
+            this.buttonClearSearch.Text = "Сбросить";
+            this.buttonClearSearch.UseVisualStyleBackColor = true;
+            this.buttonClearSearch.Click += new System.EventHandler(this.buttonClearSearch_Click);
             // 
             // comboBoxSeacrhPriorVal
             // 
@@ -204,17 +224,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(167, 20);
             this.dateTimePicker1.TabIndex = 0;
             // 
-            // buttonClearSearch
-            // 
-            this.buttonClearSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonClearSearch.Location = new System.Drawing.Point(122, 103);
-            this.buttonClearSearch.Name = "buttonClearSearch";
-            this.buttonClearSearch.Size = new System.Drawing.Size(75, 23);
-            this.buttonClearSearch.TabIndex = 5;
-            this.buttonClearSearch.Text = "Сбросить";
-            this.buttonClearSearch.UseVisualStyleBackColor = true;
-            this.buttonClearSearch.Click += new System.EventHandler(this.buttonClearSearch_Click);
-            // 
             // buttonEditEvent
             // 
             this.buttonEditEvent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -237,14 +246,17 @@
             this.buttonDelEvent.UseVisualStyleBackColor = true;
             this.buttonDelEvent.Click += new System.EventHandler(this.buttonDelEvent_Click);
             // 
-            // checkBoxSearchInRes
+            // radioButtonNoneSort
             // 
-            this.checkBoxSearchInRes.AutoSize = true;
-            this.checkBoxSearchInRes.Location = new System.Drawing.Point(111, 19);
-            this.checkBoxSearchInRes.Name = "checkBoxSearchInRes";
-            this.checkBoxSearchInRes.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxSearchInRes.TabIndex = 6;
-            this.checkBoxSearchInRes.UseVisualStyleBackColor = true;
+            this.radioButtonNoneSort.AutoSize = true;
+            this.radioButtonNoneSort.Checked = true;
+            this.radioButtonNoneSort.Location = new System.Drawing.Point(7, 43);
+            this.radioButtonNoneSort.Name = "radioButtonNoneSort";
+            this.radioButtonNoneSort.Size = new System.Drawing.Size(44, 17);
+            this.radioButtonNoneSort.TabIndex = 4;
+            this.radioButtonNoneSort.TabStop = true;
+            this.radioButtonNoneSort.Text = "Без";
+            this.radioButtonNoneSort.UseVisualStyleBackColor = true;
             // 
             // EventsViewForm
             // 
@@ -289,5 +301,6 @@
         private System.Windows.Forms.Button buttonEditEvent;
         private System.Windows.Forms.Button buttonDelEvent;
         private System.Windows.Forms.CheckBox checkBoxSearchInRes;
+        private System.Windows.Forms.RadioButton radioButtonNoneSort;
     }
 }
