@@ -1,0 +1,13 @@
+D:\Learning\ClassWork\Organizer\MyControlLibrary\bin\Debug\MyControlLibrary.dll
+D:\Learning\ClassWork\Organizer\MyControlLibrary\bin\Debug\MyControlLibrary.pdb
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.csprojAssemblyReference.cache
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.AnalogClock.resources
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.csproj.GenerateResource.cache
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.csproj.CoreCompileInputs.cache
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.dll
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.pdb
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\EventControl.MyEventControl.resources
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\EventsControl.MyEventsListControl.resources
+D:\Learning\ClassWork\Organizer\MyControlLibrary\bin\Debug\MyEvents.dll
+D:\Learning\ClassWork\Organizer\MyControlLibrary\bin\Debug\MyEvents.pdb
+D:\Learning\ClassWork\Organizer\MyControlLibrary\obj\Debug\MyControlLibrary.csproj.CopyComplete

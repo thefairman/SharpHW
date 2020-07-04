@@ -1,0 +1,130 @@
+<EventsCollection>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 0:13:16</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>e2e66fe0-264d-4758-99a3-17289400013f</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 0:15:00</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>82748602-be36-425d-bcf0-f7d48610d41a</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 0:17:57</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>f261f231-4718-403a-b97f-bfa2fc45b060</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 17:11:46</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>deb9c69b-22fc-48d7-a46b-2298db07c4f1</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 17:31:24</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>b0bc2185-7f83-41e5-813c-c954d696dd0d</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:01:00</Duration>
+    <EventDate>04.07.2020 17:37:08</EventDate>
+    <Name>Выполнить Д/З по WinForms</Name>
+    <Priority>Medium</Priority>
+    <Guid>1678291f-e766-488c-8c8e-d7de3cf2396e</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>ecb49048-4433-48e3-a12b-9a9b03fb45e2</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>3ef98d3a-025c-4bcf-b423-4427fc949c27</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>777Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>6fc452e0-1163-4861-82b6-b8e36c142bc6</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>bd9465f3-71ae-4d57-9229-5b514370dc7b</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>000Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>1b9ee766-9801-4edb-b485-84e58e2e39e9</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>22222Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>464de149-b889-409e-8577-b8bf104757ad</Guid>
+  </Event>
+  <Event>
+    <Description>Домашнее задание КА ШАГ</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>10.08.2020 0:00:00</EventDate>
+    <Name>Выполнить Д/З по Design Patterns</Name>
+    <Priority>Medium</Priority>
+    <Guid>ee5a9e24-793d-4c03-b9d0-5f53f5885b65</Guid>
+  </Event>
+  <Event>
+    <Description>После выполнения домашнего задания КА ШАГ</Description>
+    <Duration>01:00:00</Duration>
+    <EventDate>11.08.2020 0:00:00</EventDate>
+    <Name>!!!Пойти погулять!!!====</Name>
+    <Priority>Medium</Priority>
+    <Guid>13c08a9d-4ca6-42e6-818c-ac610f5e7a11</Guid>
+  </Event>
+  <Event>
+    <Description>ojihljl</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>04.07.2020 22:41:57</EventDate>
+    <Name>00pppp</Name>
+    <Priority>Low</Priority>
+    <Guid>e87d8b66-8311-4960-a9ec-5904fd0a1527</Guid>
+  </Event>
+  <Event>
+    <Description>uioyuio</Description>
+    <Duration>00:00:00</Duration>
+    <EventDate>04.07.2020 22:40:43</EventDate>
+    <Name>uiouio00</Name>
+    <Priority>Medium</Priority>
+    <Guid>8304810b-a7ab-404a-8600-dcdc9f5ab239</Guid>
+  </Event>
+</EventsCollection>

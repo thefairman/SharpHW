@@ -1,0 +1,9 @@
+D:\Learning\ClassWork\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.deps.json
+D:\Learning\ClassWork\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.dll
+D:\Learning\ClassWork\Organizer\MyEvents\bin\Debug\netstandard2.0\MyEvents.pdb
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.csprojAssemblyReference.cache
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.AssemblyInfoInputs.cache
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.AssemblyInfo.cs
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.csproj.CoreCompileInputs.cache
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.dll
+D:\Learning\ClassWork\Organizer\MyEvents\obj\Debug\netstandard2.0\MyEvents.pdb
